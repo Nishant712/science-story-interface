@@ -1,0 +1,156 @@
+/*
+	Weekly Calendar
+	by Nathan Smith
+*/
+
+*
+{
+	border: 0;
+	border-color: #aaa;
+	cursor: default;
+	margin: 0;
+	padding: 0;
+}
+
+.hour
+{
+	background: #ffe;
+	color: #c66;
+	padding: 0 10px 0 0;
+	text-align: right;
+	vertical-align: middle;
+	width: 65px;
+}
+
+.odd
+{
+	background-image: url(../img/odd.png);
+}
+
+* html .odd
+{
+	background-image: none;
+}
+
+.print
+{
+	letter-spacing: 0;
+	padding: 0;
+	text-transform: lowercase;
+}
+
+.print a
+{
+	background: #f3f3f3 url(../img/print.gif) no-repeat 15px 7px;
+	color: #999;
+	display: block;
+	height: 100%;
+	padding: 0 0 0 10px;
+}
+
+.print a:hover
+{
+	background-color: #efc;
+	color: #000;
+}
+
+a
+{
+	cursor: pointer;
+	text-decoration: none;
+}
+
+body
+{
+	background: #ddc url(../img/body.gif) repeat-y top center;
+	color: #666;
+	font: 9px Verdana, sans-serif;
+}
+
+caption
+{
+	background: url(../img/logo.gif) no-repeat center left;
+	font: 17px/50px Georgia, serif;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	text-align: right;
+	text-transform: uppercase;
+}
+
+caption a
+{
+	color: #c66;
+	font: bold 19px Verdana, sans-serif;
+	letter-spacing: 0;
+}
+
+caption a:hover
+{
+	color: #000;
+}
+
+p#footer
+{
+	background: url(../img/footer.jpg) no-repeat top center;
+	color: #987;
+	letter-spacing: 1px;
+	margin: 2px 0 0;
+	padding: 10px 0 20px;
+	text-align: center;
+}
+
+p#footer a
+{
+	color: #987;
+}
+
+p#footer a:hover
+{
+	color: #000;
+}
+
+table
+{
+	background: #fff;
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	margin: 0 auto;
+}
+
+td
+{
+	border-style: solid;
+	border-width: 0 0 1px 1px;
+	padding: 5px;
+	vertical-align: top;
+	width: 100px;
+}
+
+td a
+{
+	color: #33f;
+}
+
+td a:hover
+{
+	text-decoration: underline;
+}
+
+th
+{
+	background: #fff url(../img/th.gif) repeat-x bottom left;
+	border-style: solid;
+	border-width: 0 0 1px 1px;
+	color: #933;
+	font-size: 11px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+tr:hover td
+{
+	background: #ff9;
+	color: #000;
+}
